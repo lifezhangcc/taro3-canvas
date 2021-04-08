@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Taro from '@tarojs/taro';
 import { View, Button, Image } from '@tarojs/components'
-import TaroCanvasDrawer from '../../component/taro-plugin-canvas'; // 拷贝文件到component的引入方式
-// import { TaroCanvasDrawer  } from 'taro-plugin-canvas'; // npm 引入方式
-import { IConfig } from 'src/component/taro-plugin-canvas/types';
+import TaroCanvasDrawer from '../../component/taro3-canvas'; // 拷贝文件到component的引入方式
+// import { TaroCanvasDrawer  } from 'taro3-canvas'; // npm 引入方式
+import { IConfig } from '../../component/taro3-canvas/types';
 import './index.scss';
 
 interface IProps {
