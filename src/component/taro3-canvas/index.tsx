@@ -183,7 +183,7 @@ export default class CanvasDrawer extends Component<ICanvasDrawerProps, ICanvasD
         Taro.showToast({ icon: 'none', title: err.errMsg || '下载图片失败' });
         console.error(err);
         if (!onCreateFail) {
-          console.warn('您必须实现 taro-plugin-canvas 组件的 onCreateFail 方法，详见文档 https://github.com/chuyun/taro-plugin-canvas#fail');
+          console.warn('您必须实现 taro3-canvas 组件的 onCreateFail 方法，详见文档 https://github.com/chuyun/taro3-canvas#fail');
         }
         onCreateFail && onCreateFail(err);
       })
@@ -283,7 +283,7 @@ export default class CanvasDrawer extends Component<ICanvasDrawerProps, ICanvasD
       canvasId: this.canvasId,
       success: (result) => {
         if (!onCreateSuccess) {
-          console.warn('您必须实现 taro-plugin-canvas 组件的 onCreateSuccess 方法，详见文档 https://github.com/chuyun/taro-plugin-canvas#success');
+          console.warn('您必须实现 taro3-canvas 组件的 onCreateSuccess 方法，详见文档 https://github.com/chuyun/taro3-canvas#success');
         }
         onCreateSuccess && onCreateSuccess(result);
       },
@@ -296,7 +296,7 @@ export default class CanvasDrawer extends Component<ICanvasDrawerProps, ICanvasD
             this.getTempFile(otherOptions);
           } else {
             if (!onCreateFail) {
-              console.warn('您必须实现 taro-plugin-canvas 组件的 onCreateFail 方法，详见文档 https://github.com/chuyun/taro-plugin-canvas#fail');
+              console.warn('您必须实现 taro3-canvas 组件的 onCreateFail 方法，详见文档 https://github.com/chuyun/taro3-canvas#fail');
             }
             onCreateFail && onCreateFail(error);
           }

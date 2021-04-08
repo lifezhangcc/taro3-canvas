@@ -24,7 +24,7 @@
     "typeRoots": [
       "node_modules/@types",
       "global.d.ts",
-      "./src/component/taro-plugin-canvas/types.ts",
+      "./src/component/taro3-canvas/types.ts",
     ],
     "paths": {
       "components": [
@@ -51,7 +51,7 @@
   "include": [
     "src/components/*",
     "src/index.ts",
-    "src/component/taro-plugin-canvas/types.ts",
+    "src/component/taro3-canvas/types.ts",
     "src/component/**/*"
   ],
   "compileOnSave": false
