@@ -1,0 +1,11 @@
+{
+  "ext_json":{
+    "base_api": "https://api.xiangkai.shop/rest/wxapi",
+    "sp_id": "1000001",
+    "app_no": "WECHAT_MALL",
+    "ak": "1e7c765a3b0446e6dba13f170c4b53d2",
+    "sk": "69e90a926671e2ac28fce21a76e56e14"
+  },
+  "user_version":"V1.0",
+  "user_desc":"����΢�̳�-���Կ���v1"
+}
